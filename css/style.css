@@ -62,6 +62,7 @@ body {
   color: #525652;
   font-weight: 400;
   line-height: 26px;
+  background-color: #e6ee9c;
 }
 h1,
 h2,
@@ -399,6 +400,7 @@ button.btn {
 .space-medium {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: #e6ee9c;
 }
 .space-large {
   padding-top: 120px;
@@ -610,7 +612,7 @@ button.btn {
 4.4 Background & Block color 
 ----------------------------------*/
 .bg-light {
-  background-color: #f9f9f9;
+  background-color: #e6ee9c;
 }
 .bg-primary {
   background-color: #ffe62c;
@@ -800,6 +802,11 @@ img {
   border-radius: 0px;
   line-height: normal;
   vertical-align: middle;
+}
+
+.about-pic {
+  border-radius: 10px;
+  transform: rotateY(180deg);
 }
 .imghover {
   display: block;
